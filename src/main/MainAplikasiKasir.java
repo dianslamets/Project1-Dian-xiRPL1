@@ -38,6 +38,12 @@ public class MainAplikasiKasir {
         
         // mulai transaksi
         System.out.println("========== TRANSAKSI ==========");
+        do {
+            System.out.println("Lakukan Transaksi Lagi? [Y/]");
+            transaksi_lagi = input.next();
+        } while (transaksi_lagi.equalsIgnoreCase("Y"));
+        
+        System.out.println("========= TERIMA KASIH ==========");
         
         // ambil data transaksi
         System.out.println("No Transaksi : ");
